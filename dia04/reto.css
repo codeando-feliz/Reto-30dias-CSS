@@ -1,0 +1,44 @@
+.ruleta {
+   display: flex;
+   height: 45px;
+   box-sizing: content-box;
+   padding: 25px 22px;
+   background-color: white;
+   box-shadow: 0 20px 25px rgba(250, 250, 250, 0.1);
+   border-radius: 30px;
+   color: var(--gradient-bg-color);
+   font-size: 28px;
+}
+
+.ruleta-palabras {
+   overflow: hidden;
+}
+
+span {
+   display: block;
+   height: 100%;
+   padding-left: 10px;
+   color: var(--light-purple);
+   animation: roller 6s infinite;
+}
+
+@keyframes roller {
+   10% {
+      transform: translateY(-115%);
+   }
+   25% {
+      transform: translateY(-100%);
+   }
+   40% {
+      transform: translateY(-215%);
+   }
+   55% {
+      transform: translateY(-200%);
+   }
+   75% {
+      transform: translateY(-315%);
+   }
+   100% {
+      transform: translateY(-300%);
+   }
+}
