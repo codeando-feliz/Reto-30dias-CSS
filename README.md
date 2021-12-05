@@ -34,4 +34,15 @@ Dark & Light mode
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia03/reto.css)
 
 
-⚠️ Día 04 ~ 30: EN CONSTRUCCIóN
+### Día 04:
+
+Texto rotativo
+- Uso de ```span```
+- Uso de ```keyframes```
+
+![Demo dia04](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia04.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia04/reto.css)
+
+
+⚠️ Día 05 ~ 30: EN CONSTRUCCIóN
