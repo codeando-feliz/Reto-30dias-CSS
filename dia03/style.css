@@ -1,0 +1,70 @@
+:root {
+  --main-bg-color: #0b0c10;
+  --gradient-bg-color: #2d2d2d;
+  --dark-purple: #581870;
+  --light-purple: #bb93cb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(
+    315deg,
+    var(--main-bg-color) 0%,
+    var(--gradient-bg-color) 75%
+  );
+  color: #ffffff;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  align-items: space-between;
+}
+
+.nav {
+  margin-top: 30px;
+  height: 70px;
+}
+
+.nav ul {
+  text-align: right;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+}
+
+.container {
+   width: 600px;
+   height: 100%;
+   margin: auto;
+   display: grid;
+   align-content: inherit;
+}
+
+.demo {
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--light-purple);
+  text-align: center;
+  font-weight: 100;
+}
