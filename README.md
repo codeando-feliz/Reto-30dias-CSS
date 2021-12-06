@@ -2,6 +2,7 @@
 
 Hola! Bienvenid@ al reto de 30 días de CSS, en este reto aprenderás o probarás tu conocimiento, ¿estás list@?
 
+⚠️ Día 06 ~ 30: EN CONSTRUCCIóN
 ### Día 01:
 
 Animación de íconos, botones
@@ -44,5 +45,12 @@ Texto rotativo
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia04/reto.css)
 
+### Día 05:
 
-⚠️ Día 05 ~ 30: EN CONSTRUCCIóN
+Texto digitado
+- Uso de ```transitions``
+- Uso de ```keyframes, animations```
+
+![Demo dia04](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia05.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia05/reto.css)
