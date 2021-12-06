@@ -1,0 +1,64 @@
+.sec-reto {
+   display: grid;
+   place-content: center;
+   text-align: center;
+   align-content: space-evenly;
+   min-height: 20vh;
+}
+
+.text-type {
+   font-size: 3rem;
+   font-family: monospace;
+   font-weight: 100;
+   position: relative;
+}
+
+.text-type::before, .text-type::after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.text-type::before {
+   background: var(--main-bg-color);
+   animation: tipeo 3s steps(11) 1s forwards;
+}
+
+.text-type::after {
+   width: 0.125rem;
+   background: white;
+   animation:
+      tipeo 3s steps(11) 1s forwards,
+      parpadeo 600ms steps(11) infinite;
+}
+
+
+.text-tcl {
+   font-size: 1rem;
+   font-weight: 100;
+   opacity: 0;
+   transform: translateY(2rem);
+   animation: aparecer 1s ease 4s forwards;
+}
+
+@keyframes tipeo {
+   to {
+      left: 100%;
+   }
+}
+
+@keyframes parpadeo {
+   to {
+      background: transparent;
+   }
+}
+
+@keyframes aparecer {
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
