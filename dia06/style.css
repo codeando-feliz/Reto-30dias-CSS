@@ -1,0 +1,36 @@
+:root {
+   --main-bg-color: #0B0C10;
+   --gradient-bg-color: #2d2d2d;
+   --dark-purple: #581870;
+   --light-purple: #BB93CB;
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body {
+   display: grid;
+   height: 100%;
+   width: 100%;
+   place-items: center;
+   background: linear-gradient(315deg, var(--main-bg-color) 0%, var(--gradient-bg-color) 75%);
+   color: #FFFFFF;
+   font-family: 'Outfit', sans-serif;
+}
+
+section {
+   padding-bottom: 50px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: var(--light-purple);
+   text-align: center;
+   font-weight: 100;
+}
