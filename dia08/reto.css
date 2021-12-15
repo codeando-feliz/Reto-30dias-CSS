@@ -1,0 +1,46 @@
+.sec-reto {
+   display: flex;
+   position: relative;
+   transform: rotateY(180deg);
+}
+
+.sec-reto input {
+   display: none;
+}
+
+.sec-reto label {
+   display: block;
+   cursor: pointer;
+   align-items: center;
+   width: 70px;
+   color: var(--card-light-purple);
+}
+
+.sec-reto label::before {
+   display: block;
+   position: relative;
+   content: '\f005';
+   font-family: 'Font Awesome 5 Free';
+   font-weight: 900;
+   font-size: 60px;
+}
+
+.sec-reto label::after {
+   display: block;
+   position: absolute;
+   content: '\f005';
+   font-family: 'Font Awesome 5 Free';
+   font-weight: 900;
+   font-size: 60px;
+   color: var(--dark-purple);
+   transition: 0.5s;
+   text-shadow: 0 2px 5px rgba(250, 250, 250, 0.5);
+   opacity: 0;
+   margin-top: -61px;
+}
+
+.sec-reto label:hover::after,
+.sec-reto label:hover ~ label::after,
+.sec-reto input:checked ~ label::after {
+   opacity: 1;
+}
