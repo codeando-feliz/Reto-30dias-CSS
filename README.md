@@ -69,8 +69,8 @@ Texto digitado
 ### Día 07:
 
 Barra de búsqueda
-- Uso de ```transitions`` ???
-- Uso de ```keyframes, animations``` ??
+- Uso de ```input type text``
+- Uso de ```hover```
 
 ![Demo dia07](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia07.gif)
 
@@ -78,9 +78,11 @@ Barra de búsqueda
 
 ### Día 08:
 
-Barra de búsqueda ????
-- Uso de ```transitions`` ???
-- Uso de ```keyframes, animations``` ???
+Calificación con 5 estrellas
+- Uso de ```before, after``
+- Uso de ```input type radio```
+- Uso de ```opacity```
+- Uso de ```hover, checked```
 
 ![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia08.gif)
 
