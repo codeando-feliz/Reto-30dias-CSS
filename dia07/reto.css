@@ -1,0 +1,28 @@
+.bar-busqueda {
+   display: flex;
+   height: 30px;
+   padding: 10px 15px;
+   background: white;
+   align-items: center;
+   border-radius: 30px;
+   box-shadow: 0 0 35px 0 rgba(200, 200, 200, 0.4);
+   transition: 0.8s;
+}
+
+.bar-busqueda:hover input {
+   width: 260px;
+}
+
+.bar-busqueda input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0;
+  font-weight: 300;
+  font-size: 0.7em;
+  transition: 0.8s;
+}
+
+.bar-busqueda a li .fas {
+   color: var(--light-purple);
+}
