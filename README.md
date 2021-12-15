@@ -54,3 +54,34 @@ Texto digitado
 ![Demo dia04](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia05.gif)
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia05/reto.css)
+
+### Día 06:
+
+Texto digitado
+- Uso de ```nth-child``
+- Uso de ```keyframes```
+
+![Demo dia06](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia06.gif) 
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia06/reto.css)
+
+
+### Día 07:
+
+Barra de búsqueda
+- Uso de ```transitions`` ???
+- Uso de ```keyframes, animations``` ??
+
+![Demo dia07](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia07.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia07/reto.css)
+
+### Día 08:
+
+Barra de búsqueda ????
+- Uso de ```transitions`` ???
+- Uso de ```keyframes, animations``` ???
+
+![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia08.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia08/reto.css)
