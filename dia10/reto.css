@@ -1,0 +1,167 @@
+.sec-reto {
+   justify-content: center;
+   background-color: var(--light-purple);
+   max-width: 350px;
+   width: 100%;
+   border-radius: 10px;
+   padding: 0px;
+}
+
+.sec-reto .tarjeta {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px;
+}
+
+.sec-reto .t_emojis {
+   height: 130px;
+   width: 130px;
+   overflow: hidden;
+}
+
+input[type="radio"] {
+   display: none;
+}
+
+.t_emojis .emojis {
+   height: 500%;
+   display: flex;
+   flex-direction: column;
+}
+
+.t_emojis li {
+   height: 20%;
+   width: 100%;
+   list-style: none;
+   transition: all 0.3s ease;
+}
+
+#estrella-2:checked ~ .tarjeta .t_emojis .slideImg {
+   margin-top: -130px;
+}
+
+#estrella-3:checked ~ .tarjeta .t_emojis .slideImg {
+   margin-top: -260px;
+}
+
+#estrella-4:checked ~ .tarjeta .t_emojis .slideImg {
+   margin-top: -390px;
+}
+
+#estrella-5:checked ~ .tarjeta .t_emojis .slideImg {
+   margin-top: -520px;
+}
+
+ .t_emojis li img {
+   height: 100%;
+   width: 100%;
+}
+
+.tarjeta .t_estrellas {
+   margin-top: 30px;
+}
+
+.t_estrellas label {
+   font-size: 30px;
+   margin: 0 3px;
+}
+
+.sec-reto .t_descripcion {
+   height: 60px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-top: 1px solid #ccc;
+   background: var(--card-light-purple);
+   border-radius: 0 0 10px 10px;
+   padding: 0 20px;
+}
+
+.t_descripcion span {
+   font-size: 19px;
+   font-weight: 300;
+   color: var(--gradient-bg-color);
+}
+
+.t_descripcion .texto::before {
+   content: "Califica tu experiencia";
+}
+
+.t_descripcion .resultado::before {
+   content: "0 de 5";
+}
+
+#estrella-1:hover ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-2:hover ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-2:hover ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-3:hover ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-3:hover ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-3:hover ~ .tarjeta .t_estrellas .estrella-3,
+#estrella-4:hover ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-4:hover ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-4:hover ~ .tarjeta .t_estrellas .estrella-3,
+#estrella-4:hover ~ .tarjeta .t_estrellas .estrella-4,
+#estrella-5:hover ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-5:hover ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-5:hover ~ .tarjeta .t_estrellas .estrella-3,
+#estrella-5:hover ~ .tarjeta .t_estrellas .estrella-4,
+#estrella-5:hover ~ .tarjeta .t_estrellas .estrella-5 {
+   color: #f3d16b;
+}
+
+#estrella-1:checked ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-2:checked ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-2:checked ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-3:checked ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-3:checked ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-3:checked ~ .tarjeta .t_estrellas .estrella-3,
+#estrella-4:checked ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-4:checked ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-4:checked ~ .tarjeta .t_estrellas .estrella-3,
+#estrella-4:checked ~ .tarjeta .t_estrellas .estrella-4,
+#estrella-5:checked ~ .tarjeta .t_estrellas .estrella-1,
+#estrella-5:checked ~ .tarjeta .t_estrellas .estrella-2,
+#estrella-5:checked ~ .tarjeta .t_estrellas .estrella-3,
+#estrella-5:checked ~ .tarjeta .t_estrellas .estrella-4,
+#estrella-5:checked ~ .tarjeta .t_estrellas .estrella-5 {
+   color: #f3d16b;
+}
+
+#estrella-1:checked ~ .t_descripcion .texto::before {
+   content: "Lo odié";
+}
+
+#estrella-1:checked ~ .t_descripcion .resultado::before {
+   content: "1 de 5";
+}
+
+#estrella-2:checked ~ .t_descripcion .texto::before {
+   content: "No me gustó";
+}
+
+#estrella-2:checked ~ .t_descripcion .resultado::before {
+   content: "2 de 5";
+}
+#estrella-3:checked ~ .t_descripcion .texto::before {
+   content: "Estuvo bien";
+}
+
+#estrella-3:checked ~ .t_descripcion .resultado::before {
+   content: "3 de 5";
+}
+#estrella-4:checked ~ .t_descripcion .texto::before {
+   content: "Me encantó";
+}
+
+#estrella-4:checked ~ .t_descripcion .resultado::before {
+   content: "4 de 5";
+}
+#estrella-5:checked ~ .t_descripcion .texto::before {
+   content: "Lo amé";
+}
+
+#estrella-5:checked ~ .t_descripcion .resultado::before {
+   content: "5 de 5";
+}

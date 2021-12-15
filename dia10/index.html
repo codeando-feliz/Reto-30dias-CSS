@@ -1,0 +1,76 @@
+<!--
+  Mensaje de TCL: Bienvenido al reto del día #10! Tú puedes :]
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>30 días de CSS | Día 10</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reto.css">
+
+    <!-- Font awesome / Icons -->
+    <script src="https://kit.fontawesome.com/156626e090.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Dosis:wght@300;400;600&family=Outfit:wght@100;300;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <h1>Día 10 | Tarjeta de calificación con emojis 😉</h1>
+      </br>
+      <h2> Empecemos!</h2>
+      <p> Utiliza CSS3 para crear una tarjeta de calificación (rating) animada ⭐️⭐️⭐️⭐️⭐️</p>
+    </div>
+    <section class="sec-reto">
+      <input type="radio" name="calificar" id="estrella-1">
+      <input type="radio" name="calificar" id="estrella-2">
+      <input type="radio" name="calificar" id="estrella-3">
+      <input type="radio" name="calificar" id="estrella-4">
+      <input type="radio" name="calificar" id="estrella-5">
+      <div class="tarjeta">
+        <div class="t_emojis">
+          <div class="emojis">
+            <li class="slideImg"><img src="img/cal1.png" alt=""></li>
+            <li><img src="img/cal2.png" alt=""></li>
+            <li><img src="img/cal3.png" alt=""></li>
+            <li><img src="img/cal4.png" alt=""></li>
+            <li><img src="img/cal5.png" alt=""></li>
+          </div>
+        </div>
+        <div class="t_estrellas">
+          <label for="estrella-1" class="estrella-1 fas fa-star"></label>
+          <label for="estrella-2" class="estrella-2 fas fa-star"></label>
+          <label for="estrella-3" class="estrella-3 fas fa-star"></label>
+          <label for="estrella-4" class="estrella-4 fas fa-star"></label>
+          <label for="estrella-5" class="estrella-5 fas fa-star"></label>
+        </div>
+      </div>
+      <div class="t_descripcion">
+        <span class="texto"></span>
+        <span class="resultado"></span>
+      </div>
+    </section>
+    
+    <section name="sec-demo" class="sec-demo">
+      <h2> Demo</h2>
+      </br>
+     <!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/ccbhxtMP-cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    </section>
+    <footer>
+      <div class="credit">
+        Iconos hechos por <a href="https://www.flaticon.es/autores/justicon">Jutsicon</a>
+        <br/>
+        Desarrollado por <a href="https://github.com/melissahuertadev">Melissa Huerta</a>
+      </div>
+      <div class="copyright">
+        &copy;2021 The Code Loops
+      </div>
+    </footer>
+  </body>
+</html>
