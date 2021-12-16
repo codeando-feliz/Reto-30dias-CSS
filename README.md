@@ -87,3 +87,23 @@ Calificación con 5 estrellas
 ![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia08.gif)
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia08/reto.css)
+
+### Día 09:
+
+Slide, deslizador de tarjetas
+- Uso de ```animation-delay```
+- Uso de ```animation-play-state```
+
+![Demo dia09](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia09.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia09/reto.css)
+
+### Día 10:
+
+Calificación con 5 estrellas e imagenes
+- Uso de ```input[type="radio"]``
+- Uso de ```hover, checked```
+
+![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia10.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia10/reto.css)
