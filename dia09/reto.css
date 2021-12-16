@@ -1,0 +1,104 @@
+.sec-reto {
+   height: 400px;
+   width: 70%;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--gradient-bg-color);
+}
+
+.sec-reto .pasatiempo {
+   display: flex;
+   position: absolute;
+   align-items: center;
+   justify-content: space-between;
+   width: 400px;
+   padding: 25px;
+   opacity: 0;
+   pointer-events: none;
+   background: var(--card-light-purple);
+   border-radius: 100px 20px 20px 100px;
+   animation: deslizar 9s linear infinite;
+   animation-delay: calc(3s * var(--delay));
+}
+
+.sec-reto:hover .pasatiempo {
+   animation-play-state: paused;
+}
+
+.sec-reto .pasatiempo:last-child {
+   animation-delay: calc(3s *var(--delay));
+}
+
+@keyframes deslizar {
+   0% {
+      opacity: 0;
+      transform: translateY(100%) scale(0.5);
+   }
+   5%, 20% {
+      opacity: 0.4;
+      transform: translateY(100%) scale(0.7);
+   }
+   25%, 40% {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0%) scale(1);
+   }
+   45%, 60% {
+      opacity: 0.4;
+      transform: translateY(-100%) scale(0.7);
+   }
+   65% {
+      opacity: 0.4;
+      transform: translateY(-100%) scale(0.5);
+   }
+   100% {
+      opacity: 0;
+      transform: translateY(-100%) scale(0);
+   }
+}
+
+.pasatiempo .contenido {
+   display: flex;
+   align-items: center;
+}
+
+.sec-reto .pasatiempo .img {
+   height: 90px;
+   width: 90px;
+   position: absolute;
+   background: var(--card-light-purple);
+   border-radius: 50%;
+   padding: 5px;
+   left: -5px;
+   box-shadow: 0px 0px 5px var(--card-light-purple);
+}
+
+.sec-reto .img img{
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.pasatiempo .info {
+   margin-left: 90px;
+}
+
+.info span {
+   font-size: 20px;
+}
+
+.info span {
+   font-weight: 100;
+   font-size: 20px;
+}
+
+.sec-reto a {
+   color: whitesmoke;
+   text-decoration: none;
+   padding: 5px 8px;
+   border-radius: 25px;
+   background: var(--dark-purple);
+}
