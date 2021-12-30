@@ -1,0 +1,83 @@
+.sec-reto {
+   position: relative;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.sec-reto .tarjeta {
+   position: relative;
+   width: 300px;
+   height: 400px;
+   background-color: #fff;
+   margin: 20px;
+   border-radius: 20px;
+   overflow: hidden;
+   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+   transition: 0.5s;
+}
+
+.sec-reto:hover .tarjeta {
+   filter: blur(20px);
+   transform: scale(0.9);
+   opacity: 0.5;
+}
+
+.sec-reto .tarjeta:hover {
+   filter: blur(0px);
+   transform: scale(1.1);
+   opacity: 1;
+}
+
+.sec-reto .tarjeta .circulo {
+   position: relative;
+   height: 100%;
+   width: 100%;
+   background-color: var(--dark-purple);
+   clip-path: circle(150px at center 0);
+   text-align: center;
+}
+
+.sec-reto .tarjeta:nth-child(1) .circulo,
+.sec-reto .tarjeta:nth-child(1) .contenido a {
+   background: #A4E6D4;
+}
+
+.sec-reto .tarjeta:nth-child(2) .circulo,
+.sec-reto .tarjeta:nth-child(2) .contenido a {
+   background: #E6C3A4;
+}
+
+.sec-reto .tarjeta:nth-child(3) .circulo,
+.sec-reto .tarjeta:nth-child(3) .contenido a {
+   background: #E6A4D8;
+}
+
+.sec-reto .tarjeta .circulo h2 {
+   font-size: 4rem;
+   padding: 30px 0;
+}
+
+.sec-reto .tarjeta .contenido {
+   position: absolute;
+   bottom: 10px;
+   padding: 20px;
+   text-align: center;
+}
+
+.sec-reto .tarjeta .contenido p {
+   color: var(--gradient-bg-color);
+}
+
+.sec-reto .tarjeta .contenido a {
+   position: relative;
+   display: inline-block;
+   padding: 10px 20px;
+   margin-top: 20px;
+   background: var(--light-purple);
+   color: #fff;
+   border-radius: 40px;
+   text-decoration: none;
+}
