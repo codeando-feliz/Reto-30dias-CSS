@@ -104,7 +104,7 @@ Calificación con 5 estrellas e imagenes
 - Uso de ```input[type="radio"]``
 - Uso de ```hover, checked```
 
-![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia10.gif)
+![Demo dia10](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia10.gif)
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia10/reto.css)
 
@@ -115,7 +115,7 @@ Tarjeta giratoria con IMGs
 - Uso de ```backface-visibility```
 - Uso de transiciones y rotación
 
-![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia11.gif)
+![Demo dia11](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia11.gif)
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia11/reto.css)
 
@@ -125,6 +125,26 @@ Tarjetas + efecto borroso
 - Uso de ```filter: blur()``
 - Uso de ```transform: scale()```
 
-![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia12.gif)
+![Demo dia12](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia12.gif)
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia12/reto.css)
+
+### Día 13:
+
+Tarjetas + animación 
+- Uso de ```transition``` y ```translate```
+
+![Demo dia12](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia13.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia13/reto.css)
+
+### Día 14:
+
+Gotas de agua
+- Uso de ```before``` y ```after```
+-  Uso de ```nth-child```
+- Para crear formas, utiliza este [link](https://9elements.github.io/fancy-border-radius/)
+
+![Demo dia14](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia14.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia14/reto.css)
