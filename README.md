@@ -2,7 +2,7 @@
 
 Hola! Bienvenid@ al reto de 30 días de CSS, en este reto aprenderás o probarás tu conocimiento, ¿estás list@?
 
-⚠️ Día 06 ~ 30: EN CONSTRUCCIóN
+⚠️ Día 17 ~ 30: EN CONSTRUCCIóN
 ### Día 01:
 
 Animación de íconos, botones
@@ -107,3 +107,24 @@ Calificación con 5 estrellas e imagenes
 ![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia10.gif)
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia10/reto.css)
+
+### Día 11:
+
+Tarjeta giratoria con IMGs
+- Uso de ```transform-style`` (espacio 3D)
+- Uso de ```backface-visibility```
+- Uso de transiciones y rotación
+
+![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia11.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia11/reto.css)
+
+### Día 12:
+
+Tarjetas + efecto borroso
+- Uso de ```filter: blur()``
+- Uso de ```transform: scale()```
+
+![Demo dia08](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia12.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia12/reto.css)
