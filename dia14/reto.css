@@ -1,0 +1,63 @@
+a {
+   text-decoration: none;
+   color: var(--dark-purple);
+}
+
+.sec-reto {
+   position: relative;
+   height: 350px;
+   margin: 40px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.gota {
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   background: transparent;
+   border-radius: 54% 46% 31% 69% / 56% 42% 58% 44%;
+   box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+                     15px 25px 10px rgba(0, 0, 0, 0.1),
+                     15px 20px 20px rgba(0, 0, 0, 0.05),
+                     inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+}
+
+.gota::before {
+   content: '';
+   position: absolute;
+   top: 35px;
+   left: 55px;
+   background: #fff;
+   width: 20px;
+   height: 20px;
+   border-radius: 45% 55% 46% 54% / 76% 39% 61% 24% ;
+}
+
+.gota::after {
+   content: '';
+   position: absolute;
+   top: 25px;
+   left: 85px;
+   background: #fff;
+   width: 16px;
+   height: 16px;
+   border-radius: 45% 55% 46% 54% / 61% 64% 36% 39%;
+}
+
+.gota:nth-child(2) {
+   transform: scale(0.5) translate(-260px, 300px);
+   border-radius: 57% 43% 20% 80% / 69% 44% 56% 31%;
+}
+
+.gota:nth-child(3) {
+   transform: scale(0.42) translate(373px, 43px);
+   border-radius: 80% 20% 56% 44% / 40% 61% 39% 60% ;
+}
+
+
+.gota:nth-child(4) {
+   transform: scale(0.3) translate(42px, 500px);
+   border-radius: 34% 66% 56% 44% / 40% 48% 52% 60%;
+}
