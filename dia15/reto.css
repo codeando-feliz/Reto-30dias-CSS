@@ -1,0 +1,127 @@
+.sec-reto {
+   position: relative;
+   height: 380px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.saludo {
+   position: relative;
+   width: 400px;
+}
+
+.saludo div {
+   position: relative;
+   display: flex;
+   height: 100px;
+   margin: -30px 0px;
+   z-index: 2;
+   transform: skewY(-5deg);
+   justify-content: center;
+   align-items: center;
+   font-size: 1.4em;
+}
+
+.saludo div:nth-child(2), .saludo div:nth-child(4) {
+   transform: skewY(14.5deg);
+   z-index: 1;
+} 
+
+.saludo div:nth-child(4) {
+   transform: skewY(20deg);
+   transform-origin: left;
+   top: -52px;
+}
+
+.saludo div::before {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+.saludo div:nth-child(1):before, .saludo div:nth-child(3):before  {
+   background: linear-gradient(-160deg, var(--gradient-bg-color), var(--dark-purple));
+   transform: scaleX(0);
+}
+
+.saludo div:nth-child(2):before, .saludo div:nth-child(4):before  {
+   background: linear-gradient(-20deg, var(--gradient-bg-color), var(--light-purple));
+   transform: scaleX(0);
+}
+
+.saludo div:nth-child(1):before {
+   animation: colorear 1s linear forwards;
+   transform-origin: right;
+}
+
+.saludo div:nth-child(2):before {
+   animation: colorear 1s linear forwards;
+   transform-origin: left;
+   animation-delay: 1s;
+}
+
+.saludo div:nth-child(3):before {
+   animation: colorear 1s linear forwards;
+   transform-origin: right;
+   animation-delay: 2s;
+}
+
+.saludo div:nth-child(4):before {
+   animation: colorear 1s linear forwards;
+   transform-origin: left;
+   animation-delay: 3s;
+   width: 60%;
+   left: 0;
+}
+
+@keyframes colorear {
+   0% {
+      transform: scaleX(0);
+   }
+   100% {
+      transform: scaleX(1);
+   }
+}
+
+.saludo div:nth-child(1)::after, .saludo div:nth-child(3)::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 50%;
+   background: rgba(45, 45, 45, .3);
+}
+
+.saludo div h2 {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   z-index: 4;
+   opacity: 0;
+}
+
+.saludo div:nth-child(1) h2 {
+   animation: aparecer 0.5s linear forwards;
+   animation-delay: 1s;
+   font-size: 2em;
+}
+
+.saludo div:nth-child(3) h2 {
+   animation: aparecer 0.5s linear forwards;
+   animation-delay: 3s;
+   font-size: 3.4em;
+   font-weight: 600;
+}
+
+@keyframes aparecer {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
