@@ -1,0 +1,83 @@
+.sec-reto {
+   position: relative;
+   height: 380px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cargando {
+   position: inherit;
+   top: 0;
+   left: 0;
+   display: flex;
+   background: var(--gradient-bg-color);
+   justify-content: center;
+   align-items: center;
+   z-index: 9;
+   animation: desaparecer 11s linear forwards;
+}
+
+@keyframes desaparecer {
+   0%, 91% {
+      opacity: 1;
+      visibility: visible;
+   }
+   100% {
+      opacity: 0;
+      visibility: hidden;
+   }
+}
+
+.cargando h2 {
+   color: var(--card-light-purple); /*000*/
+}
+
+.cargando .barra {
+   position: relative;
+   width: 400px;
+   height: 40px;
+   background: transparent;
+   margin: 0 25px;
+   border: 2px solid var(--card-light-purple);
+   box-sizing: border-box;
+}
+
+.cargando .barra::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: var(--card-light-purple);
+   transform-origin: left;
+   animation: colorear 10s linear forwards;
+}
+
+.cargando .barra::after {
+   content: 'Cargando...';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   text-align: center;
+   line-height: 36px;
+   color: var(--gradient-bg-color);
+   font-size: 25px;
+   mix-blend-mode: difference;
+}
+
+@keyframes colorear {
+   0% {
+      transform: scaleX(0);
+   }
+   100% {
+      transform: scaleX(1);
+   }
+}
