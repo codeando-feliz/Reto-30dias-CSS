@@ -2,7 +2,7 @@
 
 Hola! Bienvenid@ al reto de 30 días de CSS, en este reto aprenderás o probarás tu conocimiento, ¿estás list@?
 
-⚠️ Día 17 ~ 30: EN CONSTRUCCIóN
+⚠️ Día 19 ~ 30: EN CONSTRUCCIóN
 ### Día 01:
 
 Animación de íconos, botones
@@ -148,3 +148,49 @@ Gotas de agua
 ![Demo dia14](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia14.gif)
 
 [Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia14/reto.css)
+
+### Día 15:
+
+Animación "Feliz Año Nuevo"
+
+-  Uso de ```nth-child```
+-  Uso de ```transform skewY(20deg);```
+
+![Demo dia15](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia15.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia15/reto.css)
+
+### Día 16:
+
+Animación "2021 Cargando.. 2022"
+
+- Uso de ```before``` y ```after```
+- Uso de ```keyframes``` y ```mix-blend-mode```
+
+![Demo dia16](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia16.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia16/reto.css)
+
+### Día 17:
+
+Animación de Tarjeta c/Botón
+- Uso de ```input``` y ```:checked```
+
+Note:
+```
+element1~element2	Selects every <element2> that is preceded by a <element1>
+```
+
+![Demo dia17](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia17.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia17/reto.css)
+
+### Día 18:
+
+Efecto "Revelar imagen" con Spiderman 🕸
+- Uso de ```before``` y ```after```
+- Para la animación, juega con los atributos ```top```, ```bottom``` y ```z-index```
+
+![Demo dia18](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/master/demo/dia18.gif)
+
+[Solución](https://github.com/melissahuertadev/Reto-30dias-CSS/blob/solucion/dia18/reto.css)
