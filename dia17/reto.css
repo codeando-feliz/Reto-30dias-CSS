@@ -1,0 +1,80 @@
+.sec-reto {
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+
+.tarjeta {
+   position: relative;
+   height: 400px;
+   width: 300px;
+   overflow: hidden;
+}
+
+
+input, .toggle {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   bottom: 20px;
+   right: 20px;
+   background: none;
+   z-index: 10;
+}
+
+input {
+   opacity: 0;
+}
+
+.toggle {
+   pointer-events: none;
+   border-radius: 50%;
+   background: var(--gradient-bg-color);
+   transition: 0.5s;
+   text-align: center;
+   line-height: 50px;
+   font-size: 38px;
+   box-shadow: 0 0 0 0px var(--card-light-purple);
+}
+
+input:checked ~ .toggle {
+   box-shadow: 0 0 0 500px var(--card-light-purple);
+   transform: rotate(225deg);
+}
+
+.tar-img img {
+   width: 100%;
+}
+
+.tar-img, .tar-cont {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+} 
+
+.tar-cont {
+   padding: 30px;
+   box-sizing: border-box;
+   z-index: 11;
+   pointer-events: none;
+   transition: 0.5s;
+   opacity: 0;
+}
+
+input:checked ~ .tar-cont {
+   opacity: 1;
+   transition-delay: 0.5s;
+}
+
+.tar-cont h2 {
+   margin-bottom: 10px;
+   font-size: 2.5em;
+}
+
+.tar-cont p {
+   margin: 0;
+   padding: 0;
+   font-size: 1.2em;
+}
