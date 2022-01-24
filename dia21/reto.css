@@ -1,0 +1,56 @@
+.sec-reto {
+   width: 100%;
+   height: 100vh;
+   background-image: url(img/rain.png);
+   animation: lluvia .5s linear infinite;
+}
+
+.sec-reto h1 {
+   text-align: center;
+}
+
+.sec-reto::before {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: oldlace;
+   animation: rayos 4s linear infinite;
+   opacity: 0;
+}
+
+@keyframes lluvia {
+   0% {
+      background-position: 0% 0%;
+   }
+   100% {
+      background-position: 20% 100%;
+   }
+}
+
+@keyframes rayos {
+   0% {
+      opacity: 0;
+   }
+   10% {
+      opacity: 0;
+   }
+   11% {
+      opacity: 1;
+   }
+   15% {
+      opacity: 0;
+   }
+   20% {
+      opacity: 0;
+   }
+   21% {
+      opacity: 1;
+   }
+   24% {
+      opacity: 0;
+   }
+   105% {
+      opacity: 0;
+   }
+}
