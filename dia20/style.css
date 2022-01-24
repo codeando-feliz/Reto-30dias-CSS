@@ -1,0 +1,36 @@
+:root {
+   --main-bg-color: #0B0C10;
+   --gradient-bg-color: #2d2d2d;
+   --dark-purple: #581870;
+   --light-purple: #BB93CB;
+   --card-light-purple:#D5B6E2;
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body {
+   display: grid;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   place-items: center;
+   background: var(--gradient-bg-color);
+   color: #FFFFFF;
+   font-family: 'Outfit', sans-serif;
+   overflow: hidden;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: var(--light-purple);
+   text-align: center;
+   font-weight: 100;
+}
