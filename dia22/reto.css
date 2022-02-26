@@ -1,0 +1,61 @@
+.sec-reto {
+   width: 100%;
+   height: 100vh;
+}
+
+.sec-reto h1 {
+   text-align: center;
+}
+
+.sec-reto .olas {
+   position: absolute;
+   width: 100%;
+   height: 143px;
+   bottom: 0;
+   left: 0;
+   background: url(img/ola.png);
+   animation: oleaje 10s linear infinite;
+}
+
+.sec-reto .olas:before {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 143px;
+   background: url(img/ola.png);
+   top: 0;
+   left: 0;
+   opacity: 0.4;
+   animation: oleaje-reversa 10s linear infinite;
+}
+
+.sec-reto .olas:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 143px;
+   background: url(img/ola.png);
+   top: 0;
+   left: 0;
+   opacity: 0.5;
+   animation-delay: -5s;
+   animation: oleaje 20s linear infinite;
+}
+
+@keyframes oleaje {
+   0% {
+      background-position: 0;
+   }
+   100% {
+      background-position: 1360px;
+   }
+}
+
+@keyframes oleaje-reversa {
+   0% {
+      background-position: 1360px;
+   }
+   100% {
+      background-position: 0;
+   }
+}
