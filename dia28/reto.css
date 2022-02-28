@@ -1,0 +1,61 @@
+.sec-reto {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+
+.sec-reto div {
+   position: relative;
+   margin: auto;
+   display: flex;
+}
+
+.tarjeta {
+   position: relative;
+   width: 300px;
+   height: 400px;
+   background: whitesmoke;
+   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+   border-radius: 30px;
+}
+
+.tarjeta span {
+   position: absolute;
+   top: -10px;
+   left: -10px;
+   width: 150px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+
+.tarjeta span::before {
+   content: 'RECOMENDADO';
+   position: absolute;
+   width: 150%;
+   height: 40px;
+   background: var(--card-light-purple);
+   transform: rotate(-45deg) translateY(-20px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   z-index: 1;
+}
+
+.tarjeta span::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 10px;
+   height: 10px;
+   background: var(--light-purple);
+   box-shadow: 149px -149px var(--light-purple);
+}
