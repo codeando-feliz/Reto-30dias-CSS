@@ -1,0 +1,91 @@
+.sec-reto {
+   height: 100%;
+   width: 100%;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+
+.sec-reto div {
+   position: relative;
+   width: 200px;
+   margin: auto;
+}
+
+.btn {
+   text-decoration: none;
+   color: whitesmoke;
+   text-transform: uppercase;
+   transform-style: preserve-3d;
+   position: absolute;
+   padding: 10px 20px;
+   border: 2px solid var(--card-light-purple);
+   box-sizing: border-box;
+   transition: .5s;
+}
+
+.btn:hover{
+   border-radius: 25px;
+}
+
+.btn span:before, .btn span:after {
+   content: '';
+   position: absolute;
+   display: block;
+   width: 30px;
+   height: 30px;
+   box-sizing: border-box;
+   transition: .5s;
+}
+
+.btn span:before {
+   border-bottom: 2px solid var(--card-light-purple);
+   border-left: 2px solid var(--card-light-purple);
+   transform: rotate(45deg);
+   top: 4px;
+   left: -8px;
+}
+
+.btn:hover span::before {
+   transform: rotate(-135deg);
+   left: -25px;
+   animation: animationBefore .5s linear infinite;
+}
+
+.btn span:after {
+   border-top: 2px solid var(--card-light-purple);
+   border-right: 2px solid var(--card-light-purple);
+   transform: rotate(45deg);
+   top: 4px;
+   right: -8px;
+}
+
+.btn:hover span:after {
+   transform: rotate(-135deg);
+   right: -25px;
+   animation: animationAfter .5s linear infinite;
+}
+
+@keyframes animationBefore {
+   0%{
+      left: -25px;
+   }
+   50%{
+      left: -20px;
+   }
+   100%{
+      left: -25px;
+   }
+}
+
+@keyframes animationAfter {
+   0%{
+      right: -25px;
+   }
+   50%{
+      right: -20px;
+   }
+   100%{
+      right: -25px;
+   }
+}
