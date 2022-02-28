@@ -1,0 +1,95 @@
+.sec-reto {
+   position: relative;
+   height: 100%;
+}
+
+a {
+   text-decoration: none;
+   color: whitesmoke;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+a div {
+   display: inline-block;
+   position: relative;
+   background-color: whitesmoke;
+   line-height: 60px;
+   overflow: hidden;
+}
+
+a div span {
+   position: relative;
+   transition: .2s;
+}
+
+a div:nth-child(1){
+   width: 150px;
+   height: 60px;
+}
+
+a div:nth-child(2){
+   width: 60px;
+   height: 60px;
+   left: -6px;
+}
+
+a div:nth-child(1) div, a div:nth-child(2) div{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+a div:nth-child(1) div {
+   background: var(--light-purple);
+}
+
+a div:nth-child(2) div {
+   background: whitesmoke;
+}
+
+a div:nth-child(1) div::before, a div:nth-child(2) div::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   transition: .5s;
+}
+
+a div:nth-child(1) div::before {
+   background: whitesmoke;
+}
+
+a div:nth-child(2) div::before {
+   background: var(--light-purple);
+}
+
+a:hover div:nth-child(1) div:before{
+   transform: translateX(-100%);
+}
+
+a div:nth-child(1) span {
+   color: var(--light-purple);
+   z-index: 1;
+}
+
+a:hover div:nth-child(1) span {
+   color: whitesmoke;
+   z-index: 1;
+}
+
+a:hover div:nth-child(2) div:before{
+   transform: translateX(100%);
+}
+
+a div:nth-child(2) span {
+   color: whitesmoke;
+   z-index: 1;
+}
+
+a:hover div:nth-child(2) span {
+   color: var(--light-purple);
+   z-index: 1;
+}
