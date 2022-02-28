@@ -1,0 +1,56 @@
+.sec-reto {
+   height: 100%;
+}
+
+.sec-btn {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.btn {
+   text-decoration: none;
+   color: whitesmoke;
+   text-transform: uppercase;
+   transform-style: preserve-3d;
+   position: relative;
+   transition: .5s;
+}
+
+.btn:before {
+   content: attr(title);
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 12px 40px;
+   background: var(--light-purple);
+   color: whitesmoke;
+   border: 2px solid var(--card-light-purple);
+   transition: .5s;
+   transform-origin: right;
+   transform: translateX(-100%) rotateY(90deg);
+}
+
+.btn:after {
+   content: attr(title);
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 12px 40px;
+   background: var(--card-light-purple);
+   color: whitesmoke;
+   border: 2px solid var(--card-light-purple);
+   transition: .5s;
+   transform-origin: left;
+   transform: translateX(0) rotateY(0deg);
+}
+
+.btn:hover::before{
+   transform: translateX(0) rotateY(0deg);
+}
+
+
+.btn:hover::after{
+   transform: translateX(100%) rotateY(90deg);
+}
