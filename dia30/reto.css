@@ -1,0 +1,82 @@
+.sec-reto {
+   height: 100%;
+   max-width: 80%;
+   display: flex;
+   position: relative;
+   justify-content: center;
+}
+
+.contenido {
+   position: relative;
+   display: flex;
+   height: 80%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.contenido .sec-text {
+   position: relative;
+   max-width: 60%;
+}
+
+.contenido .sec-text h2{
+   font-size: 2.5em;
+   line-height: 1.8em;
+   text-transform: uppercase;
+}
+
+.contenido .sec-text p{
+   font-size: 1em;
+   font-weight: 100;
+   line-height: 1.4em;
+}
+
+.contenido .sec-text a {
+   font-size: 0.6em;
+   display: inline-block;
+   margin-top: 20px;
+   padding: 8px 20px;
+   background: whitesmoke;
+   color: var(--light-purple);
+   border-radius: 40px;
+   letter-spacing: 1px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.contenido .sec-img {
+   width: 600px;
+   display: flex;
+   padding-right: 50px;
+   margin-top: 50px;
+   justify-content: flex-end;
+}
+
+
+.contenido .sec-img img {
+   max-width: 240px;
+}
+
+.sec-opc {
+   position: absolute;
+   display: flex;
+   left: 50%;
+   bottom: 80px;
+   transform: translateX(-50%);
+}
+
+.sec-opc li {
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.sec-opc li:hover {
+   transform: translateY(-15px);
+}
+
+.sec-opc li img{
+   max-width: 40px;
+}
