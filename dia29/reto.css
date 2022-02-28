@@ -1,0 +1,86 @@
+.sec-reto {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+
+.tarjeta {
+   position: relative;
+   width: 400px;
+   height: 400px;
+   margin: 20px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   background: linear-gradient(45deg, var(--light-purple), var(--card-light-purple));
+   border-radius: 50%;
+   transition: 0.5s;
+}
+
+.tarjeta img {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   height: 380px;
+   filter: grayscale(100%);
+   transition: 0.5s;
+}
+
+.tarjeta:hover {
+   width: 600px;
+   height: 350px;
+   border-radius: 32px;
+}
+
+.tarjeta:hover img{
+   left: 75%;
+   height: 450px;
+   filter: none;
+}
+
+.tarjeta .contenido  {
+   position: relative;
+   width: 47%;
+   left: 20%;
+   visibility: hidden;
+   opacity: 0;
+   padding: 10px 0 10px 35px;
+   transition: 0.5s;
+}
+
+.tarjeta:hover .contenido  {
+   left: 0;
+   opacity: 1;
+   visibility: visible;
+}
+
+.tarjeta .contenido h2 {
+   text-transform: uppercase;
+   font-size: 2.1em;
+   line-height: 1em;
+}
+
+.tarjeta .contenido p {
+   font-size: 0.9em;
+   font-weight: 200;
+}
+
+.tarjeta .contenido p span {
+   font-size: 0.95em;
+   color: var(--dark-purple);
+}
+
+
+.tarjeta .contenido a {
+   position: relative;
+   color: var(--gradient-bg-color);
+   background-color: whitesmoke;
+   display: inline-block;
+   padding: 8px 14px;
+   margin-top: 10px;
+   text-decoration: none;
+}
