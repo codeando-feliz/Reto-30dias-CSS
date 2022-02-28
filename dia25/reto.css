@@ -1,12 +1,15 @@
 .sec-reto {
    height: 100%;
+   width: 100%;
+   position: relative;
+   justify-content: center;
+   align-items: center;
 }
 
-.sec-btn {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+.sec-reto div {
+   position: relative;
+   width: 200px;
+   margin: auto;
 }
 
 .btn {
