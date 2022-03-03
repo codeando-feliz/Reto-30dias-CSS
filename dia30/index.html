@@ -1,5 +1,5 @@
 <!--
-  Mensaje de TCL: Bienvenido al reto del día #29! Tú puedes :]
+  Mensaje de TCL: Bienvenido al reto del día #30! Tú puedes :]
 -->
 
 <!DOCTYPE html>
@@ -21,44 +21,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Dosis:wght@300;400;600&family=Outfit:wght@100;300;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Día 30 | Casas Hogwarts (+JS) </h1>
-    <section class="sec-reto">
-      <div class="contenido">
-        <div class="sec-text">
-          <h2 class="casa-nom">Slytherin</h2>
-          <p class="casa-des">La Casa Slytherin está caracterizada principalmente por la ambición y 
-            la astucia. Fue fundada por el mago Salazar Slytherin. Su principal reliquia 
-            es el guardapelo de Salazar Slytherin. El animal representativo es la serpiente, 
-            sus colores son verde y plateado y el elemento es el agua, asociada con la astucia y la frialdad.</p>
-          <a href="#">Ver otras casas</a>
+    <div class="container">
+      <div class="header">
+        <h1>Día 30 | Casas Hogwarts (+JS) </h1>
+      </div>
+      <div class="sec-reto">
+        <div class="contenido">
+          <div class="sec-text">
+            <h2 class="casa-nom">Slytherin</h2>
+            <p class="casa-des">La Casa Slytherin está caracterizada principalmente por la ambición y 
+              la astucia. Fue fundada por el mago Salazar Slytherin. Su principal reliquia 
+              es el guardapelo de Salazar Slytherin. El animal representativo es la serpiente, 
+              sus colores son verde y plateado y el elemento es el agua, asociada con la astucia y la frialdad.</p>
+            <a href="#">Ver otras casas</a>
+          </div>
+          <div class="sec-img">
+            <img src="img/slytherin.png" alt="Escudo Slytherin" class="escudo">
+          </div>
         </div>
-        <div class="sec-img">
-          <img src="img/slytherin.png" alt="Escudo Slytherin" class="escudo">
+        <ul class="sec-opc">
+          <li>
+            <img id="0" src="img/slytherin.png" onclick="houseChosen(this.id);"/>
+          </li>
+          <li>
+            <img id="1" src="img/hufflepuff.png" onclick="houseChosen(this.id);"/>
+          </li>
+          <li>
+            <img id="2" src="img/ravenclaw.png" onclick="houseChosen(this.id);"/>
+          </li>
+          <li>
+            <img id="3" src="img/gryffindor.png" onclick="houseChosen(this.id);"/>
+          </li>
+        </ul>
+      </div>
+      <footer>
+        <div class="credit">
+          Desarrollado por <a href="https://github.com/melissahuertadev">Melissa Huerta</a>
         </div>
-      </div>
-      <ul class="sec-opc">
-        <li>
-          <img id="0" src="img/slytherin.png" onclick="houseChosen(this.id);"/>
-        </li>
-        <li>
-          <img id="1" src="img/hufflepuff.png" onclick="houseChosen(this.id);"/>
-        </li>
-        <li>
-          <img id="2" src="img/ravenclaw.png" onclick="houseChosen(this.id);"/>
-        </li>
-        <li>
-          <img id="3" src="img/gryffindor.png" onclick="houseChosen(this.id);"/>
-        </li>
-      </ul>
-    </section>
-    <footer>
-      <div class="credit">
-        Desarrollado por <a href="https://github.com/melissahuertadev">Melissa Huerta</a>
-      </div>
-      <div class="copyright">
-        &copy;2021 The Code Loops
-      </div>
-    </footer>
+        <div class="copyright">
+          &copy;2021 The Code Loops
+        </div>
+      </footer>
+    </div>
     <script type="text/javascript" src="hogwarts.js"></script>
   </body>
 </html>

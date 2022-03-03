@@ -1,33 +1,52 @@
 :root {
-   --main-bg-color: #0B0C10;
-   --gradient-bg-color: #2d2d2d;
-   --dark-purple: #581870;
-   --light-purple: #BB93CB;
-   --card-light-purple:#D5B6E2;
+  --main-bg-color: #0b0c10;
+  --gradient-bg-color: #2d2d2d;
+  --dark-purple: #581870;
+  --light-purple: #bb93cb;
+  --card-light-purple: #d5b6e2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+}
+
+.header {
+   padding: 1em;
+   text-align: center;
  }
- 
- * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    140deg,
+    rgb(80, 135, 42) 0%,
+    var(--gradient-bg-color) 45%,
+    var(--main-bg-color) 100%
+  );
+  color: #ffffff;
+  height: auto !important;
 }
 
-html, body {
-   display: grid;
-   height: 100%;
-   width: 100%;
-   place-items: center;
-   background: linear-gradient(140deg, rgb(80, 135, 42) 0%, var(--gradient-bg-color) 45%, var(--main-bg-color) 100%);
-   color: #FFFFFF;
-   font-family: 'Outfit', sans-serif;
+.sec-reto {
+   margin: 10% auto;
+   position: relative;
 }
 
-section {
-   margin: 40px auto;
-}
 
 footer {
-   position: fixed;
+   position: absolute;
    left: 0;
    bottom: 0;
    width: 100%;
