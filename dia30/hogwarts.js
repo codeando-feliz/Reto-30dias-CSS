@@ -35,5 +35,5 @@ let casas = [
     document.querySelector(".escudo").src = `img/${casas[id].nombre}.png`;
     document.querySelector(".casa-nom").innerHTML = casas[id].nombre;
     document.querySelector(".casa-des").innerHTML = casas[id].descripcion;
-    document.querySelector("body").style.background = casas[id].background;
+    document.querySelector(".wrapper").style.background = casas[id].background;
   }

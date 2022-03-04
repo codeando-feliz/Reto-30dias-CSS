@@ -72,7 +72,7 @@
 }
 
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
    .sec-reto {
       min-width: 90%;
    }
@@ -112,5 +112,9 @@
 
    .sec-opc li img{
       max-width: 80px;
+   }
+
+   footer {
+      font-size: 2em;
    }
 }
