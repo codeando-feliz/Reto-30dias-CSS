@@ -23,7 +23,7 @@ body {
    text-align: center;
  }
 
-.container {
+.wrapper {
   position: relative;
   margin: 0 auto;
   width: 100%;
@@ -43,7 +43,6 @@ body {
    margin: 10% auto;
    position: relative;
 }
-
 
 footer {
    position: absolute;

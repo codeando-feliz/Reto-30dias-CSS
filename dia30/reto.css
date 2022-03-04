@@ -4,7 +4,7 @@
    justify-content: center;
 }
 
-.contenido {
+.sec-info {
    position: relative;
    display: flex;
    height: 80%;
@@ -12,18 +12,18 @@
    align-items: flex-start;
 }
 
-.contenido .sec-text {
+.sec-info .sec-text {
    position: relative;
    max-width: 60%;
 }
 
-.contenido .sec-text h2{
+.sec-info .sec-text h2{
    font-size: 2.5em;
    line-height: 1.8em;
    text-transform: uppercase;
 }
 
-.contenido .sec-text a {
+.sec-info .sec-text a {
    font-size: 0.6em;
    display: inline-block;
    margin-top: 20px;
@@ -36,7 +36,7 @@
    text-transform: uppercase;
 }
 
-.contenido .sec-img {
+.sec-info .sec-img {
    width: 600px;
    display: flex;
    padding-right: 50px;
@@ -44,7 +44,7 @@
 }
 
 
-.contenido .sec-img img {
+.sec-info .sec-img img {
    max-width: 240px;
 }
 
@@ -69,4 +69,48 @@
 
 .sec-opc li img{
    max-width: 40px;
+}
+
+
+@media (min-width: 900px) {
+   .sec-reto {
+      min-width: 90%;
+   }
+
+   .sec-info {
+      display: grid;
+      width: 100%;
+      justify-items: center;
+      text-align: center;
+   }
+
+   .sec-info .sec-text {
+      max-width: 80%;
+   }
+
+   .sec-info .sec-text h2{
+      font-size: 5em;
+   }
+   .sec-info .sec-text p{
+      font-size: 2.25em;
+      font-weight: 100;
+   }
+
+   .sec-info .sec-text a{
+      font-size: 2em;
+      padding: 12px 20px;
+   }
+
+   .sec-info .sec-img {
+      padding: 35px;
+      width: auto;
+   }
+
+   .sec-info .sec-img img{
+      max-width: 480px;
+   }
+
+   .sec-opc li img{
+      max-width: 80px;
+   }
 }
